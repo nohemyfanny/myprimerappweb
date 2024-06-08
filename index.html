@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación Web</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="./imagen/Logo.png" class="app-logo" alt="Logotipo">
+                    <h4>Stefany Quintanilla</h4>
+                </div>
+                <nav class="menu">
+                    <div class="menu-toggle"><span>&#9776;</span></div>
+                    <ul class="menu-list">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./formulario.html">Formulario</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div id="slider" class="slider-big slider-medium">
+        <h1>Bienvenidos a mi web!</h1>
+        <a href="./blog.html" class="btn-white">Ir al blog</a>
+    </div>
+
+    <div class="container">
+        <section id="content">
+            <h2 class="subheader">Últimos artículos</h2>
+            <div id="articles">
+                <article class="article-item" id="article-template">
+                    <div class="image-wrap">
+                        <img src="./assets/images/Productos.jpg" alt="Imagen del artículo">
+                    </div>
+                    <h2>Artículo de prueba</h2>
+                    <span class="date">Hace 5 minutos</span>
+                    <a href="./article.html">Leer más</a>
+                </article>
+            </div>
+        </section>
+
+        <aside id="sidebar">
+            <div id="nav-log" class="sidebar-item">
+                <h3>Creación de artículos!</h3>
+                <a href="#" class="btn btn-success">Crear artículo</a>
+            </div>
+
+            <div id="search" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el artículo que buscas </p>
+                
+                <form>
+                    <input type="text" name="search" placeholder="Buscar...">
+                    <input type="submit" name="submit" class="btn" value="Buscar">
+                </form>
+            </div>
+        </aside>
+        
+    </div>
+<!--LIMPIAR FLOTADOS-->
+<div class="clearfix"></div>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Developed by Stefany Quintanilla</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>

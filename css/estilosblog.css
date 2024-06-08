@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.app-logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#user-profile .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#user-profile .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#user-profile .user-info {
+    text-align: center;
+}
+
+#user-profile .user-info h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+#user-profile .user-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+#user-profile .user-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#user-profile .user-stats div {
+    margin: 0 20px;
+    text-align: center;
+}
+
+#user-profile .user-stats div span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#user-profile .user-stats div p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.cute-cats {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cute-cats img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #dbdbdb;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #8e8e8e;
+}
